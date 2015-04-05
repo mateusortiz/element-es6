@@ -1,18 +1,24 @@
 {
-    "name": "my-repo",
-    "version": "0.0.0",
-    "description": "My awesome Custom Element",
-    "license": "MIT",
-    "main": "src/my-element.html",
-    "keywords": [
-        "web-components"
-    ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-    ],
-    "dependencies": {
-        "webcomponentsjs": "^0.5.1"
-    }
+  "name": "hello-world",
+  "version": "0.0.0",
+  "description": "My awesome Custom Element",
+  "license": "MIT",
+  "main": "src/my-element.html",
+  "keywords": [
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "~0.6.0"
+  },
+  "authors": [
+    "Mateus Ortiz <mateus.prado@ig.com.br>"
+  ]
 }
