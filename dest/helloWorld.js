@@ -20,7 +20,7 @@ var Hello = (function (_HTMLElement) {
 	_createClass(Hello, [{
 		key: 'createdCallback',
 		value: function createdCallback() {
-			this.textContent = 'Hello World';
+			this.textContent = 'Hello World, Today\'s date ' + new Date().toJSON().slice(0, 10);
 		}
 	}]);
 

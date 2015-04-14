@@ -1,6 +1,6 @@
-# &lt;my-repo&gt;
+# &lt;hello-world&gt;
 
-> My awesome Custom Element
+> My awesome Custom Element with ES6 using babel
 
 ## Demo
 
@@ -11,10 +11,10 @@
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install my-repo --save
+$ bower install hello-world --save
 ```
 
-Or [download as ZIP](https://github.com/my-user/my-repo/archive/master.zip).
+Or [download as ZIP](https://github.com/mateusortiz/hello-world-es6/archive/master.zip).
 
 ## Usage
 
@@ -27,32 +27,14 @@ Or [download as ZIP](https://github.com/my-user/my-repo/archive/master.zip).
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="bower_components/my-repo/src/my-element.html">
+    <script src="dest/helloWorld.js"></script>
     ```
 
 3. Start using it!
 
     ```html
-    <my-element></my-element>
+    <hello-world></hello-world>
     ```
-
-## Options
-
-Attribute     | Options     | Default      | Description
----           | ---         | ---          | ---
-`foo`         | *string*    | `bar`        | Lorem ipsum dolor.
-
-## Methods
-
-Method        | Parameters   | Returns     | Description
----           | ---          | ---         | ---
-`unicorn()`   | None.        | Nothing.    | Magic stuff appears.
-
-## Events
-
-Event         | Description
----           | ---
-`onsomething` | Triggers when something happens.
 
 ## Development
 
@@ -61,7 +43,7 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
 * Install [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/):
 
     ```sh
-    $ [sudo] npm install -g bower grunt-cli
+    $ [sudo] npm install -g bower gulp
     ```
 
 * Install local dependencies:
@@ -70,16 +52,10 @@ In order to run it locally you'll need to fetch some dependencies and a basic se
     $ bower install && npm install
     ```
 
-* To test your project, start the development server and open `http://localhost:8000`.
+* To watch ES6 compilation and start the development server.
 
     ```sh
-    $ grunt server
-    ```
-
-* To provide a live demo, send everything to `gh-pages` branch.
-
-    ```sh
-    $ grunt deploy
+    $ gulp
     ```
 
 ## Contributing
@@ -96,4 +72,4 @@ For detailed changelog, check [Releases](https://github.com/my-user/my-repo/rele
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://mateusortiz.mit-license.org) © Mateus Ortiz

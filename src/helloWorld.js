@@ -2,7 +2,7 @@
 
 class Hello extends HTMLElement {
 	createdCallback() {
-		this.textContent = "Hello World";
+		this.textContent = "Hello World, Today's date " + new Date().toJSON().slice(0, 10);
 	}
 }
 
