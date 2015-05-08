@@ -2,10 +2,6 @@
 
 > My awesome Custom Element with ES6 using babel
 
-## Demo
-
-[Check it live!](http://my-user.github.io/my-repo)
-
 ## Install
 
 Install the component using [Bower](http://bower.io/):
